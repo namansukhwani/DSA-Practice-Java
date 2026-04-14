@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 public class TaskScheduler {
+
+    // https://leetcode.com/problems/task-scheduler/description/
     public static void main(String[] args) throws Exception {
         TaskScheduler taskScheduler = new TaskScheduler();
         taskScheduler.leastInterval(new char[] { 'A', 'A', 'A', 'B', 'B', 'B', 'C', 'C', 'C', 'D', 'D', 'E' }, 2);
