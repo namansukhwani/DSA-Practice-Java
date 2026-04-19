@@ -27,7 +27,7 @@ public class ValidAnagram {
     }
 
     // My First Solution
-    private boolean isAnagram1(String s, String t) {
+    public boolean isAnagram1(String s, String t) {
         if (s.length() == t.length()) {
             char[] sarr = s.toCharArray();
             char[] tarr = t.toCharArray();

@@ -26,7 +26,7 @@ public class TaskScheduler {
 
     // A B C A B C A B C D E INT D
 
-    private int leastInterval1(char[] tasks, int n) {
+    public int leastInterval1(char[] tasks, int n) {
         int[] taskTypeFreq = new int[26];
         for (int i = 0; i < tasks.length; i++) {
             taskTypeFreq[this.getAsciValueNormalized(tasks[i])]++;
